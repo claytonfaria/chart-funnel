@@ -13,11 +13,11 @@ function App() {
         label: "Weekly Sales",
         // this one here draws the bars in the center, to make it work with our number, we need to test how to calculate it to be centered
         data: [
-          [0, 100],
+          [0, 100], // bar starts on zero to 100
           [20, 80],
-          [30, 70],
+          [30, 70], // bar starts on 30 and goes to 70
           [40, 60],
-          [45, 55],
+          [45, 55], // tricky part is those pairs should be calculated on the fly based on the actual data, for example, in this case  "purchased"
         ],
         backgroundColor: [
           "rgba(255, 26, 104, 0.2)",
